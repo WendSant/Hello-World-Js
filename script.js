@@ -45,3 +45,14 @@ var OpAritRes = OpArit + OpArit2;
 
 console.log(OpAritRes)
 
+/* 
+    Atribuições
+    =   x = y   x = y
+    +=  x += y  x = x + y 
+    -=  x -= y  x = x - y
+    *=  x *= y  x = x * y
+    /=  x /= y  x = x / y
+    %=  x %= y  x = y % y  
+
+*/
+
