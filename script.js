@@ -1,8 +1,8 @@
-alert("Hello World");
+// alert("Hello World");
 
 console.log("Olá Mundo");
 
-var aulavar ;
+var aulavar ; 
 
 aulavar = "Teste" ;
 
@@ -41,9 +41,21 @@ console.log(quebraLinha);
 var OpArit = 5;
 var OpArit2 = 6;
 
-var OpAritRes = OpArit + OpArit2;
+var OpAritRes = OpArit *= OpArit2;
 
-console.log(OpAritRes)
+console.log(OpAritRes);
+
+OpAritRes /= 2;
+
+console.log(OpAritRes);
+
+OpAritRes %= 10
+
+console.log(OpAritRes);
+
+
+
+
 
 /* 
     Atribuições
