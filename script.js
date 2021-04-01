@@ -68,3 +68,61 @@ console.log(OpAritRes);
 
 */
 
+/* 
+    Operadores Comparativos 
+    == Igual a 
+    === Valor igual e igual
+    ! = não é igual 
+    !== não igual ou não igual
+    > maior que
+    < menor de
+    >= Maior quer ou igual a
+    <= menor que ou igual a 
+*/
+
+/* 
+    Operadores logicos
+    && e 
+    || ou
+    ! Negativo
+*/
+
+//  && Exemplo
+var idade = 20;
+
+var maior20 = idade >= 20;
+var menor20 = idade <= 20;
+
+var entre = maior20 && menor20;
+
+console.log(entre);
+
+console.log("Idade", idade);
+console.log("Maior que vinte", maior20);
+console.log("Menor que vinte", menor20);
+console.log("Entre 20 e 30 anos", entre);
+
+// || Exemplo
+
+var idade2 = 9;
+
+var menor10 = idade2 <= 10;
+var maior65 = idade2 >= 65;
+var gratuidade = menor10 || maior65;
+
+console.log("Idade", idade2);
+console.log("Maior que 65", maior65);
+console.log("Menor que 10", menor10);
+console.log("Tem direito a gratuidade", gratuidade);
+
+
+// EXEMPLO NEGAÇÃO
+
+var idade3 = 15;
+var maiorVinte = idade3 >=20;
+var menor20 = !maiorVinte
+
+console.log("Idade", idade3);
+console.log("Maior que vinte", maiorVinte);
+console.log("Menor que vinte", menor20);
+
