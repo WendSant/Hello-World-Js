@@ -126,3 +126,32 @@ console.log("Idade", idade3);
 console.log("Maior que vinte", maiorVinte);
 console.log("Menor que vinte", menor20);
 
+// Strings
+console.log("aula \n strings");
+
+var srt = 'Olá "aspas"teste';
+
+console.log(srt);
+
+
+
+
+
+// Calculadora de soma que fiz testando um negocio kkkkk
+// var n1 = prompt("Digite o primeiro valor");
+// var n3 = n1 * 1
+// var n1 = prompt("Digite o segundo valor");
+// var n4 = n1 * 1
+// var n5 = n4 + n3
+// alert(n5)
+
+
+
+
+
+// TRANSFORMAR STRINGS EM NUMERO
+
+var stringNumero = "89";
+var stringNumero2 = "1";
+var stringNumeroResult = parseFloat(stringNumero) + parseFloat(stringNumero2);
+console.log(stringNumeroResult);
