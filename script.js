@@ -155,3 +155,10 @@ var stringNumero = "89";
 var stringNumero2 = "1";
 var stringNumeroResult = parseFloat(stringNumero) + parseFloat(stringNumero2);
 console.log(stringNumeroResult);
+
+
+// Alert e prompt
+
+// var mynome = prompt("Digite seu nome");
+
+// alert("Seja bem vindo "+ mynome);
