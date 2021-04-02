@@ -162,3 +162,33 @@ console.log(stringNumeroResult);
 // var mynome = prompt("Digite seu nome");
 
 // alert("Seja bem vindo "+ mynome);
+
+// Condicionais IF ELSE
+
+var idadeExemplo = 77;
+
+if (idadeExemplo >= 18 && idadeExemplo <= 70) {
+        console.log("Pode"); 
+        console.log("Qual seu pedido?");
+
+}
+else {
+    console.log("Não pode entrar");
+    console.log("Volte quando tiver idade suficiente");
+}
+
+// ====================================================================
+
+// Tentantiva de fazer um programa que fala a média do enem
+
+// var nomeUsuario = prompt("Olá, poderia me informar seu nome?");
+// alert("Bem vindo "+ nomeUsuario +" aqui irei dizer sua media geral no ENEM");
+// var linguagens = parseFloat(prompt("Poderia me informar sua nota em Linguagens, códigos e suas tecnologias"));
+// var cienciasHum = parseFloat(prompt("Poderia me informar sua nota em Ciências Humanas e suas tecnologias"));
+// var cienciasNat = parseFloat(prompt("Poderia me informar sua nota em Ciências da Natureza e suas tecnologias"));
+// var matematica = parseFloat(prompt("Poderia me informar sua nota em Matemática e suas tecnologias"));
+// var redacao = parseFloat(prompt("Poderia me informar sua nota na Redação"));
+
+// var mediaGeral = (linguagens + cienciasHum + cienciasNat + matematica + redacao)/5;
+
+// alert("Sua média geral no Enem é "+ mediaGeral);
