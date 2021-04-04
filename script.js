@@ -192,3 +192,23 @@ else {
 // var mediaGeral = (linguagens + cienciasHum + cienciasNat + matematica + redacao)/5;
 
 // alert("Sua média geral no Enem é "+ mediaGeral);
+
+
+// =======================================================================================================================
+
+// Operador ternario
+
+var idadeTernario = 17;
+
+idadeTernario >= 18 ? console.log("Pode") : console.log("Não pode");
+
+// Outro exemplo 
+
+var idadeTernario1 = 17 ;
+
+var pode = idadeTernario1 >= 18 ? true : false;
+
+console.log(pode)
+
+
+
