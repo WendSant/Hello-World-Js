@@ -208,7 +208,43 @@ var idadeTernario1 = 17 ;
 
 var pode = idadeTernario1 >= 18 ? true : false;
 
-console.log(pode)
+console.log(pode);
+
+// Condicionais Switch
+
+    var nota1 = 8.0;
+    var nota2 = 15;
+     var mediaStwitch = (nota1+nota2)/2;
+    var conceito = ""
+
+    if (mediaStwitch >= 8 ) {
+        conceito = "Ótimo";
+    }
+    else if (mediaStwitch >= 6.5) {
+        conceito = "Bom";
+    }
+    else {
+        conceito = "Regular";
+    }
+
+console.log("Sua média é "+ mediaStwitch);
+console.log(conceito);
+
+switch (conceito) {
+
+    case "Ótimo": 
+            console.log("Parabéns você foi um ótimo aluno");
+            break;
+    case "Bom":
+            console.log("Você foi bem mas pode se esforçar mais um pouco");
+            break;
+    case "Regular":
+            console.log("Você precisa estudar mais um pouco"); 
+            break;
+    default:
+        console.log("Houve um erro!")
+        break;
 
 
 
+}
