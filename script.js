@@ -252,7 +252,10 @@ console.log(separacao)
 //  Repetição for e while
 
 
-// var 
+var numeroFor = 5;
 
-// for( )
+for(var vez = 0; vez < numeroFor; vez++ ){
+    console.log("Executando o for, pela "+ vez + "vez" )
+} 
+console.log("Acabou o for")
 
