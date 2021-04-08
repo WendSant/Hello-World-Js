@@ -1,5 +1,8 @@
 // alert("Hello World");
 
+var separacao = "======================================"
+console.log(separacao)
+
 console.log("Olá Mundo");
 
 var aulavar ; 
@@ -24,7 +27,7 @@ console.log(quebraLinha);
     String: Conjunto de caracteres se diz uma string aquilo que esta entre aspas duplas "String"
 
 */
-
+console.log(separacao)
 /* 
     Operações aritmeticas
     Adição  +
@@ -55,7 +58,7 @@ console.log(OpAritRes);
 
 
 
-
+console.log(separacao)
 
 /* 
     Atribuições
@@ -67,7 +70,7 @@ console.log(OpAritRes);
     %=  x %= y  x = y % y  
 
 */
-
+console.log(separacao)
 /* 
     Operadores Comparativos 
     == Igual a 
@@ -79,7 +82,7 @@ console.log(OpAritRes);
     >= Maior quer ou igual a
     <= menor que ou igual a 
 */
-
+console.log(separacao)
 /* 
     Operadores logicos
     && e 
@@ -101,7 +104,7 @@ console.log("Idade", idade);
 console.log("Maior que vinte", maior20);
 console.log("Menor que vinte", menor20);
 console.log("Entre 20 e 30 anos", entre);
-
+console.log(separacao)
 // || Exemplo
 
 var idade2 = 9;
@@ -115,7 +118,7 @@ console.log("Maior que 65", maior65);
 console.log("Menor que 10", menor10);
 console.log("Tem direito a gratuidade", gratuidade);
 
-
+console.log(separacao)
 // EXEMPLO NEGAÇÃO
 
 var idade3 = 15;
@@ -125,14 +128,14 @@ var menor20 = !maiorVinte
 console.log("Idade", idade3);
 console.log("Maior que vinte", maiorVinte);
 console.log("Menor que vinte", menor20);
-
+console.log(separacao)
 // Strings
 console.log("aula \n strings");
 
 var srt = 'Olá "aspas"teste';
 
 console.log(srt);
-
+console.log(separacao)
 
 
 
@@ -156,7 +159,7 @@ var stringNumero2 = "1";
 var stringNumeroResult = parseFloat(stringNumero) + parseFloat(stringNumero2);
 console.log(stringNumeroResult);
 
-
+console.log(separacao)
 // Alert e prompt
 
 // var mynome = prompt("Digite seu nome");
@@ -176,7 +179,7 @@ else {
     console.log("Não pode entrar");
     console.log("Volte quando tiver idade suficiente");
 }
-
+console.log(separacao)
 // ====================================================================
 
 // Tentantiva de fazer um programa que fala a média do enem
@@ -197,13 +200,13 @@ else {
 // =======================================================================================================================
 
 // Operador ternario
-
+console.log(separacao)
 var idadeTernario = 17;
 
 idadeTernario >= 18 ? console.log("Pode") : console.log("Não pode");
-
+console.log(separacao)
 // Outro exemplo 
-
+console.log(separacao)
 var idadeTernario1 = 17 ;
 
 var pode = idadeTernario1 >= 18 ? true : false;
@@ -244,6 +247,12 @@ switch (conceito) {
     default:
         console.log("Houve um erro!")
         break;
-
-
 }
+console.log(separacao)
+//  Repetição for e while
+
+
+// var 
+
+// for( )
+
