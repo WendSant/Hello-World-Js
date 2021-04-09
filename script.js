@@ -245,17 +245,42 @@ switch (conceito) {
             console.log("Você precisa estudar mais um pouco"); 
             break;
     default:
-        console.log("Houve um erro!")
+        console.log("Houve um erro!");
         break;
 }
-console.log(separacao)
-//  Repetição for e while
-
+console.log(separacao);
+//  Repetição for
+console.log("Aula For");
 
 var numeroFor = 5;
 
-for(var vez = 0; vez < numeroFor; vez++ ){
-    console.log("Executando o for, pela "+ vez + "vez" )
-} 
-console.log("Acabou o for")
+for (var i = 0; i < numeroFor; i++) {
+    console.log("Executando o for pela "+i+" vez");
 
+}
+
+
+console.log("Terminado!");
+console.log(separacao);
+// Repetição while
+
+var numeroWhile = 5;
+
+while (numeroWhile <10) {
+    console.log("Número "+numeroWhile)
+    numeroWhile++;
+}
+
+console.log("Terminado");
+console.log(separacao);
+// Outro exemplo while usando math.random
+//  Coloquei para apenas números inteiros pra ficar no hype 😎
+var numeroWhile2 = parseInt(Math.random() * 100);
+
+while (numeroWhile2 < 90) {
+    console.log(numeroWhile2);
+    numeroWhile2 = parseInt(Math.random() * 100);
+}
+console.log(numeroWhile2);
+console.log("Terminado");
+console.log(separacao);
