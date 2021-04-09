@@ -284,3 +284,6 @@ while (numeroWhile2 < 90) {
 console.log(numeroWhile2);
 console.log("Terminado");
 console.log(separacao);
+
+// Arrays
+console.log("Aula Arrays");
