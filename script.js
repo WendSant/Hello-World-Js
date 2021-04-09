@@ -285,5 +285,27 @@ console.log(numeroWhile2);
 console.log("Terminado");
 console.log(separacao);
 
-// Arrays
+// Arrays dos crias 🤣
 console.log("Aula Arrays");
+
+ var alunos = new Array("Wendson", "José", "Marta", "Mariana");
+ console.log(alunos);
+
+//  Outro exemplo Array
+
+var alunos2 = ["Marcelo", "Pedro", "Marcos", "Daniel"];
+
+
+// Olha cabeça de lampada, o in é o index no for ele pega o index 
+// Já o of pega o valor do index ta ligado no exemplo ai por exemplo ele pega o nome do aluno, quando eu coloco o in eu tenho que dizer dentro do for q ele tem q dizer o nome do aluno. Ta vendo ali que eu coloquei alunos[aluno] é pra dizer que é a variavel alunos e pra for o repetir todos os arrays dentro q no caso são os nomes ta ligado é meio confuso mas da pra entender mais ou menos
+// Exemplos com in e of no for
+console.log("COM IN NO FOR")
+for (var aluno in alunos2){
+    console.log(alunos[aluno]);
+
+}
+console.log("COM OF NO FOR");
+for (var aluno of alunos2){
+    console.log(aluno);
+}
+console.log(separacao);
