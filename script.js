@@ -309,3 +309,34 @@ for (var aluno of alunos2){
     console.log(aluno);
 }
 console.log(separacao);
+
+// Aula funções = functions
+console.log("Aula Function");
+
+// Primeiro exemplo cria pega visão que o bagulho da ficando dificil
+
+function media() {
+    var nota1Function = 10;
+    var nota2Function = 9;
+    var mediaFunction = (nota1Function + nota2Function)/2;
+    console.log(mediaFunction); 
+}
+
+media();
+
+// Segundo exemplo ai setando argumentos dentros dos parenteses 
+
+function media2(n1,n2) {
+    var nota1Function2 = n1;
+    var nota2Function2 = n2;
+    var mediaFunction2 = (nota1Function2 + nota2Function2)/2;
+    // console.log(mediaFunction2);
+    return mediaFunction2;
+    
+}
+
+var resultado1Function = media2(5, 8);
+var resultado2Function = media2(8, 8);
+
+console.log(resultado1Function);
+console.log(resultado2Function);
