@@ -340,3 +340,42 @@ var resultado2Function = media2(8, 8);
 
 console.log(resultado1Function);
 console.log(resultado2Function);
+console.log(separacao);
+// Aula agora cabeça de lampada parte 2 de functions 
+console.log("Aula 2 de functions");
+
+function saudacao() {
+    
+    return "Olá mundo";
+}
+
+var s = saudacao();
+console.log(s);
+//  Outro exemplo de média nesta caarlho 🤗
+
+// Usei o m no lugar do n
+ function media3(m1, m2) {
+     var nota1Function3 = m1;
+     var nota2Function3 = m2;
+     var mediaFunction3 = (m1 + m2) / 2;
+     return mediaFunction3;
+}
+
+var resultadofunction3 = media3(8, 7);
+var m = media3;
+var resultado2function3 = m(5, 5);
+
+console.log(resultadofunction3);
+console.log(resultado2function3);
+
+// CARA PUTA Q PARIU MAIS UM EXEMPLO DE FUNCTION COM MÉDIA
+console.log("Deus me ajuda");
+
+var media4 = function (n1, n2) {
+    return (n1 + n2)/2;
+}
+
+var m2 = media4(5,6);
+
+console.log(m2);
+console.log(separacao);
