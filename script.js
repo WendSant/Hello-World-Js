@@ -379,3 +379,40 @@ var m2 = media4(5,6);
 
 console.log(m2);
 console.log(separacao);
+
+// Voltando aos estudos rapaziada, um mês paradão 😁 tomei no toba mai bora
+
+var nomes = ["Wendson", "Marcos", "Daniel"];
+var notas1 = [7.0, 6.5, 9.5];
+var notas2 = [5.0, 7.0, 8.0];
+
+function mediaa(n1,n2) {
+    return (n1+n2)/2;
+}
+
+function passou(media){
+    if (media > 7){
+        return  "Aprovado";
+    }
+    else {
+        return  "Reprovado";
+    }
+}
+
+for (var index in nomes) {
+        var notaa1 = notas1[index];
+        var notaa2 = notas2[index];
+        var m = mediaa(notaa1, notaa2);
+        
+        console.log("Nomes: "+nomes[index]+
+            " - Notas: "+
+            notaa1+
+            " - "+
+            notaa2+
+            " - Média: "+
+            m+
+            " - Situação: "+
+            passou(m));
+
+}
+
