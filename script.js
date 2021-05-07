@@ -416,3 +416,33 @@ for (var index in nomes) {
 
 }
 
+// Objetos no js porra, ouvi um amém? 😁😎😋😋😎😋fé tropa
+console.log(separacao);
+console.log("Aula de objetos no js");
+
+var objeto = { nome: "Wendson", notas: [7, 8]};
+
+console.log(objeto.notas[0]);
+console.log(objeto["notas"][1]);
+
+var novaProp = "LastName";
+
+// formas de adicionar propriedades no objeto
+objeto.matricula = 585478;
+
+objeto[novaProp] = "Alves"
+objeto["sobrenome"] = "Santana";
+
+console.log(objeto);
+
+// Outra forma de criar objeto
+console.log("Criando oto objeto");
+var objeto2 = new Object();
+
+objeto2.nome = "Marcos";
+objeto2.matricula = "89745";
+
+console.log(objeto2);
+console.log(separacao);
+
+
