@@ -445,4 +445,45 @@ objeto2.matricula = "89745";
 console.log(objeto2);
 console.log(separacao);
 
+// Continuação aula de objetos 
+// Metodos
+
+
+
+
+
+var alunoMetodo = { nome: "Wendson", 
+                    notasm: [9, 8],
+// THIS SÓ FUNCIONA NA PROPRIEDADE DO OBJETO RAPAZIADA
+                    mediametodo: function(n1,n2){
+                        return (this.notasm[0] + this.notasm[1])/2;
+                    }
+};
+
+// Usando function pra inserida no metodo do objeto
+function calcMedia(n1,n2){
+    return (n1 * 2 + n2)/3;
+}
+
+
+var alunoMetodo2 = { nome: "Brenno", 
+                    notasm: [9, 7],
+
+                    mediametodo: calcMedia
+};
+
+console.log(alunoMetodo.nome);
+console.log(alunoMetodo.mediametodo(alunoMetodo.notasm[0], alunoMetodo.notasm[1]));
+
+console.log(alunoMetodo2.nome);
+console.log(alunoMetodo2.mediametodo(alunoMetodo2.notasm[0], alunoMetodo2.notasm[1]));
+
+
+
+
+
+
+
+console.log(separacao);
+
 
