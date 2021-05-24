@@ -484,30 +484,44 @@ console.log(alunoMetodo2.mediametodo(alunoMetodo2.notasm[0], alunoMetodo2.notasm
 console.log(separacao);
 // Objetos Construtores, sera q agora consigo manter esse pc por mais dias?
 
-function criarAluno(nome, n1, n2) {
+// function criarAluno(nome, n1, n2) {
 
-    return {
-        nome: nome,
-        nota1: n1,
-        nota2: n2,
-        mediaAluno: function () {
-                return (this.nota1 + this.nota2 )/ 2;
-        }
+//     return {
+//         nome: nome,
+//         nota1: n1,
+//         nota2: n2,
+//         mediaAluno: function () {
+//                 return (this.nota1 + this.nota2 )/ 2;
+//         }
+//     }
+
+
+// }
+
+function aluno3(nome, n1, n2) {
+    this.name = nome;
+    this.nota1 = n1;
+    this.nota2 = n2;
+
+    this.media = function mediaAluno() {
+        return(this.nota1 + this.nota2) /2;
+        
     }
-
-
 }
 
-var turma = [
-    criarAluno("Wendson", 8, 6),
-    criarAluno("Gustavo", 7, 5),
-    criarAluno("Daniel", 7, 7)
+var a = new aluno3("Wendson", 9, 8);
+console.log(a.media());
 
-]
+// var turma = [
+//     criarAluno("Wendson", 8, 6),
+//     criarAluno("Gustavo", 7, 5),
+//     criarAluno("Daniel", 7, 7)
 
-var aluno2 = turma[2];
+// ]
 
-for (var aluno2  of turma) {
-    console.log(aluno2.nome + " - "+ aluno2.mediaAluno());
-}
+// var aluno2 = turma[2];
+
+// for (var aluno2  of turma) {
+//     console.log(aluno2.nome + " - "+ aluno2.mediaAluno());
+// }
 
