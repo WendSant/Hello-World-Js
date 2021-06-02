@@ -523,5 +523,35 @@ console.log(a.media());
 
 // for (var aluno2  of turma) {
 //     console.log(aluno2.nome + " - "+ aluno2.mediaAluno());
-// }
+// 
+
+console.log(separacao);
+
+// Aula de Datas
+
+// Formas de instanciar uma Data:
+
+// var d = new Date();
+// var d = new Date(milliseconds);
+// var d = new Date(dateString);
+// var d = new Date(year, month, day, hours, minutes, seconds, milliseconds);
+
+
+
+
+var d = new Date();
+
+console.log(d);
+
+var d2 = new Date(49855649877845);
+
+// Lembra de quando executar algum metodo usar o () pq é um metodo e precisa ser ativado é nós cria do futuro 😎
+var meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jnh", "Jlh", "Ago", "Sep", "Out", "Nov", "Dec"];
+
+
+var d2 = prompt()
+console.log(d2.setHours(10));
+console.log(d2);
+console.log(meses[d2.getMonth()]);
+
 
