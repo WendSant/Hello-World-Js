@@ -548,9 +548,10 @@ var d2 = new Date(49855649877845);
 // Lembra de quando executar algum metodo usar o () pq é um metodo e precisa ser ativado é nós cria do futuro 😎
 var meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jnh", "Jlh", "Ago", "Sep", "Out", "Nov", "Dec"];
 
+var horas = prompt("Digite a hora");
 
-var d2 = prompt()
-console.log(d2.setHours(10));
+
+console.log(d2.setHours(horas));
 console.log(d2);
 console.log(meses[d2.getMonth()]);
 
