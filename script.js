@@ -548,11 +548,27 @@ var d2 = new Date(49855649877845);
 // Lembra de quando executar algum metodo usar o () pq é um metodo e precisa ser ativado é nós cria do futuro 😎
 var meses = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jnh", "Jlh", "Ago", "Sep", "Out", "Nov", "Dec"];
 
-var horas = prompt("Digite a hora");
+// var horas = prompt("Digite a hora");
 
 
-console.log(d2.setHours(horas));
+// console.log(d2.setHours(horas));
 console.log(d2);
 console.log(meses[d2.getMonth()]);
 
+console.log(separacao);
 
+// Const, let e var as diferenças ae pae chama no desquedale 😅
+
+var numero1 = 1;
+
+
+let numero2 = 2;
+
+// CONST ELA NÃO PODE SER REATRIBUIDA MAS O VALOR AS VEZES PODE MUDAR UTILIZANDO ARRAY CRIA CARAI
+const numero3 = 3;
+
+// let e const se criados em um bloco só existe dentro do bloco ta ligado?
+// var é global ou seja mesmo criado dentro de um bloco é acessivel de vora cria
+console.log(numero1);
+console.log(numero2);
+console.log(numero3);
