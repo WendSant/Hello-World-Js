@@ -572,3 +572,4 @@ const numero3 = 3;
 console.log(numero1);
 console.log(numero2);
 console.log(numero3);
+console.log(numero2);
