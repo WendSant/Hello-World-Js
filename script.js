@@ -573,3 +573,10 @@ console.log(numero1);
 console.log(numero2);
 console.log(numero3);
 console.log(numero2);
+console.log(separacao);
+// Window
+// Tem varias propriedades, um exeplo disso é o alert e o console.log exemplo abaixo
+
+window.console.log("Exemplo");
+// window.alert("Mensagem comentada");
+console.log(separacao);
