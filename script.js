@@ -580,3 +580,14 @@ console.log(separacao);
 window.console.log("Exemplo");
 // window.alert("Mensagem comentada");
 console.log(separacao);
+// Document
+
+// Mostra o html no console (?)
+console.log(window.document);
+console.log(document);
+
+// DOM (documentpt2)
+
+// da pra mostrar os objetos dentro do document
+console.log(document.body);
+console.log(document.body.innerHTML);
