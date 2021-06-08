@@ -593,3 +593,28 @@ let todosTitulos = document.getElementsByTagName("h1");
 console.log(todosTitulos);
 console.log(todosTitulos[0]);
 console.log(todosTitulos[1]);
+
+// Modificando elementos no js
+
+let p = document.getElementById("p1");
+// innerHTMl coloca tag HTML
+p.innerHTML = "Novo valor";
+// innerText mostra só o texto que ta aparecendo na tela
+p.innerText = "Outro novo valor";
+// TextContent mostra tudo que ta dentro do html no caso da tag P
+p.textContent = "Outro mais novo";
+//  classname muda a classe do elemento
+// p.className = "";
+// Isto setaria como 'none' a classe
+
+// Setando um atributo
+let meuAtt = p.getAttribute("meuAtt");
+console.log(meuAtt);
+// mudando esse atributo
+p.setAttribute("meuAtt", "Otoname");
+// Não serve apenas para mudar o atributo mas como tbm para criar 👌🐱‍🏍
+// Mudando style dele no js:
+console.log(p.style);
+// Só colocar p.style.atributo desejado
+
+
