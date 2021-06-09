@@ -629,8 +629,25 @@ console.log(p.style);
 {
   function hideh2(){
     let h2 = document.getElementsByTagName("h2")[0]
-    h2.style.display = "none";
+    if(h2.style.display == "none"){
+      h2.style.display = "block";
+    }
+    else{
+      h2.style.display = "none";
+    }
   }
 }
+
+// Aula 2 DOM
+{
+  function onOver(element) {
+      element.style.backgroundColor = "red";
+  }
+  function onOut(element) {
+    element.style.backgroundColor = "blueviolet";
+  }
+}
+
+
 
 
