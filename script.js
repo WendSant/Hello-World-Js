@@ -617,4 +617,20 @@ p.setAttribute("meuAtt", "Otoname");
 console.log(p.style);
 // Só colocar p.style.atributo desejado
 
+// AULA 1 DOM DOCUMENT OBJECT MODEL 
+
+{
+  function changeH2(inputcria) {
+    let h2 = document.getElementsByTagName("h2")[0]
+    h2.innerText = inputcria.value;
+  }
+}
+
+{
+  function hideh2(){
+    let h2 = document.getElementsByTagName("h2")[0]
+    h2.style.display = "none";
+  }
+}
+
 
