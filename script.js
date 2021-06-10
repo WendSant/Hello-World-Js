@@ -647,6 +647,27 @@ console.log(p.style);
     element.style.backgroundColor = "blueviolet";
   }
 }
+// Aula 3 
+
+{
+  function loaded() {
+      let aula3 = document.getElementById("aula3");
+
+      // aula3.onclick = alterarText
+      aula3.addEventListener("mouseover", alterarText);
+      aula3.addEventListener("mouseout", mouseout);
+
+
+  }
+
+  function alterarText() {
+    this.innerHTML = "New Text cria";
+  }
+
+  function mouseout() {
+    this.innerHTML = "Mouse ta fora do texto";
+  }
+}
 
 
 
