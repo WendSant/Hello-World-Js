@@ -697,7 +697,24 @@ console.log(separacao);
 
 // o resultado vai ser exatamente igual se tivesse feito ret3(), neste caso.
 
+// Elementos pai e filhos
 
+{
+  window.onload = function () {
+    
+        let h1 = document.getElementsByTagName("h1");
+
+        for (let h of h1) {
+          console.log(h);
+          h.addEventListener('click', papis)
+        }
+
+        function papis (e) {
+          let t = e.target;
+            console.log(t.parentElement);
+        }
+  }
+}
 
   
 
