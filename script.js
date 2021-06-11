@@ -669,6 +669,20 @@ console.log(p.style);
   }
 }
 
+// Exemplo usando this
+
+{
+  let titulo1 = document.getElementById("t1");
+  let titulo2 = document.getElementById("t2");
+  titulo1.onclick = colocarUppercase;
+  titulo2.onclick = colocarUppercase;
+
+  function colocarUppercase() {
+    this.innerHTML = this.innerHTML.toUpperCase();
+    
+  }
+}
+
 
 
 
