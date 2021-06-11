@@ -699,23 +699,30 @@ console.log(separacao);
 
 // Elementos pai e filhos
 
-{
-  window.onload = function () {
+// {
+//   window.onload = function () {
     
-        let h1 = document.getElementsByTagName("h1");
+//         let h1 = document.getElementsByTagName("h1");
 
-        for (let h of h1) {
-          console.log(h);
-          h.addEventListener('click', papis)
-        }
+//         for (let h of h1) {
+//           console.log(h);
+//           h.addEventListener('click', papis)
+//         }
 
-        function papis (e) {
-          let t = e.target;
-            console.log(t.parentElement);
-        }
-  }
+//         function papis (e) {
+//           let t = e.target;
+//             console.log(t.parentElement);
+//         }
+//   }
+// }
+console.log(separacao);
+// Biblioteca math
+// Exemplos 
+
+{
+  let n = parseInt(Math.random() * 100);
+  console.log(n);
 }
-
   
 
 
