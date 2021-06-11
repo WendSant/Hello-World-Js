@@ -683,6 +683,24 @@ console.log(p.style);
   }
 }
 
+console.log(separacao);
+// Parenteses da função 
+// ​Obs:
+
+// Quando eu tenho 
+
+// let ret5 = ret3; ret3 sendo uma função 
+
+// eu posso executar isso:
+
+// ret5();
+
+// o resultado vai ser exatamente igual se tivesse feito ret3(), neste caso.
+
+
+
+  
+
 
 
 
