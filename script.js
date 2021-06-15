@@ -767,6 +767,16 @@ console.log(separacao);
 
 }
 
+// Exemplo localstorage
+{
+  // let a = {nome: "Wendson", n1: 7.3}
+  // localStorage.setItem("aluno", JSON.stringify(a));
+
+  let a = localStorage.getItem("aluno");
+  console.log(a);
+
+}
+
 
 
 
