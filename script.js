@@ -778,7 +778,7 @@ console.log(separacao);
 
 }
 console.log(separacao);
-
+// Aula fazenod um sorteio(vai ter um projeto depois)
 {
   let  pessoas = ["Wendson", "Marcos", "Daniel", "Gustavo", "Brenno", "Matheus", "Cleiton", "Nicholas", "Lucas", "Igor", "Ognarc", "Eduardo"];
   
@@ -789,5 +789,40 @@ console.log(separacao);
     document.getElementById("sorteio").innerHTML = pessoas[ns];
   }
 }
+console.log(separacao);
 
+// Timer e Intervalo
+
+let numero = 0;
+let interval;
+
+
+function atualizarTexto(){
+    let h = document.getElementById("tI");
+    h.innerHTML += " " + numero;
+    numero++;
+}
+
+function iniciar() {
+  interval = setInterval(atualizarTexto, 1000);
+}
+function parar() {
+  clearInterval(interval);
+}
+
+// Timer 
+// let timer;
+
+// function atualizarTexto(){
+//     let h = document.getElementById("tI");
+//     h.innerHTML += " " + numero;
+//     numero++;
+// }
+
+// function iniciar() {
+//   timer = setTimeout(atualizarTexto, 3000);
+// }
+// function parar() {
+//   clearTimeout(timer);
+// }
 
