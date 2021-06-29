@@ -774,10 +774,20 @@ console.log(separacao);
 
   let a = localStorage.getItem("aluno");
   console.log(a);
+  console.log(a);
 
 }
+console.log(separacao);
 
+{
+  let  pessoas = ["Wendson", "Marcos", "Daniel", "Gustavo", "Brenno", "Matheus", "Cleiton", "Nicholas", "Lucas", "Igor", "Ognarc", "Eduardo"];
+  
+  function sortear(){
+    let np = pessoas.length;
+    let ns = Math.floor(Math.random() * np);
 
-
+    document.getElementById("sorteio").innerHTML = pessoas[ns];
+  }
+}
 
 

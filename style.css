@@ -26,3 +26,11 @@ div{
         text-align: center;
         font-size: 2rem;
 }
+
+#sorteio {
+        background-color: cornsilk;
+        box-sizing: border-box;
+        border-radius: 5px;
+        width: 12rem;
+        color: firebrick;
+}
